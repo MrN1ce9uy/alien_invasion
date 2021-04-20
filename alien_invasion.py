@@ -21,9 +21,9 @@ def run_game():
 	while True:
 	
 		# Watch for keyboard and mouse events.
-		for event in pygame.event.get():
-			if event.type == pygame.QUIT:
-				sys.exit()
+		#for event in pygame.event.get():
+		#	if event.type == pygame.QUIT:
+		#		sys.exit()
 				
 		# Redraw the screen during each pass through the loop.
 		screen.fill(ai_settings.bg_color)
